@@ -23,5 +23,8 @@
     "url": "https://github.com/clair-design/vue-cli-plugin-clair/issues"
   },
   "homepage": "https://github.com/clair-design/vue-cli-plugin-clair#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "standard-version": "^4.4.0"
+  }
 }
