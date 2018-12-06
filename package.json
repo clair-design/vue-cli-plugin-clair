@@ -1,0 +1,27 @@
+{
+  "name": "vue-cli-plugin-clair",
+  "version": "0.1.0",
+  "description": "vue-cli 3 plugin for clair-design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npx standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clair-design/vue-cli-plugin-clair.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "clair-design",
+    "clair"
+  ],
+  "author": "wemlion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clair-design/vue-cli-plugin-clair/issues"
+  },
+  "homepage": "https://github.com/clair-design/vue-cli-plugin-clair#readme",
+  "dependencies": {}
+}
