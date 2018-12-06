@@ -32,13 +32,12 @@ The result would be something like:
 
 |           file              |      explanation    |
 |-----------------------------|---------------------|
-| src/plugins/clair-design.js |  This is where we import clair library  |
-| src/styles/clair-design.css |  This is where we import clair stylesheet source code  |
-| src/styles/clair-theme.css  |  This is where overwrite CSS variables of clair  |
+| src/plugins/clair-design.js |  where to import clair library  |
+| src/styles/clair-design.css |  where we import clair stylesheet source code  |
+| src/styles/clair-theme.css  |  where to put CSS variables which overwrite that of clair  |
 | vue.config.js               |  'clair' is added to the [`transpileDependencies`](https://cli.vuejs.org/zh/config/#transpiledependencies) option: [reason](https://clair.75team.com/component/install/#guan-yu-polyfill-jian-tan-zai-vue-cli-3-xiang-mu-zhong-de-shi-yong)  |
 | postcss.config.js           |  [related](https://clair.75team.com/component/theme)  |
-| src/App.vue                 |  changed the initial App.vue file |
-| src/main.js                 |  import our styles and plugins  |
+| src/main.js                 |  where to import our styles and plugins  |
 
 
 ## Acknowledgement
