@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-clair",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "vue-cli 3 plugin for clair-design",
   "main": "index.js",
   "scripts": {
