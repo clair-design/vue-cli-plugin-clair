@@ -2,7 +2,7 @@
 
 Clair-Design plugin for `@vue/cli` (the so-called `vue-cli 3`).
 
-遇到问题？请先看 [COMMON_ISSUES.md](./COMMON_ISSUES.md)。
+遇到问题？请先看 [Q&A.md](./Q&A.md)。
 
 ##  Usage
 
