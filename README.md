@@ -1,10 +1,12 @@
 # vue-cli-plugin-clair
 
-Clair-Design plugin for `@vue/cli` 3.0.
+Clair-Design plugin for `@vue/cli` (the so-called `vue-cli 3`).
+
+遇到问题？请先看 [COMMON_ISSUES.md](./COMMON_ISSUES.md)。
 
 ##  Usage
 
-1. follow installation guide by [vue-cli offical site](https://cli.vuejs.org/guide/installation.html).
+1. follow installation guide on [@vue/cli offical website](https://cli.vuejs.org/guide/installation.html).
 
 2. create your own project:
 
@@ -12,17 +14,17 @@ Clair-Design plugin for `@vue/cli` 3.0.
 vue create YOUR_PROJECT_NAME
 ```
 
-Note that **dedicated config files** are preferred and recommended.
+Notice: the option **dedicated config files** are strongly recommended.
 
-3. change your working directory to the project, with the command `cd YOUR_PROJECT_NAME`.
+3. `cd YOUR_PROJECT_NAME`, change your working directory to the project.
 
-4. install and invoke this plugin (vue-cli-plugin-clair):
+4. install and invoke vue-cli-plugin-clair:
 
 ```
 vue add clair
 ```
 
-The result would be something like: 
+The result would be something like:
 
 ![](https://ws2.sinaimg.cn/large/006tNbRwly1fxx5a31d7bj31840is75p.jpg)
 
@@ -46,4 +48,4 @@ This project is inspired by the following projects ——
 - https://github.com/iview/vue-cli-plugin-iview
 - https://github.com/ElementUI/vue-cli-plugin-element
 
-And also thanks to the [vue-cli](https://cli.vuejs.org/) project and its contributors.
+And also thanks to the [@vue/cli](https://cli.vuejs.org/) project and its developers.
