@@ -4,7 +4,7 @@ const glob = require('glob')
 const aliasRE = /^~?@/
 const clairLocation = dirname(require.resolve('clair/package.json'))
 const clairStylesLocation = join(clairLocation, '/src/styles/')
-const customThemePath = join(__dirname, 'src/clair-theme.css')
+const customThemePath = join(__dirname, 'src/styles/clair-theme.css')
 
 module.exports = {
   plugins: {
@@ -31,7 +31,6 @@ module.exports = {
         return id
       }
     },
-    'postcss-easy-import': {},
     'postcss-for': {},
     'postcss-each': {},
     // keep animation names

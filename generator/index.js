@@ -1,6 +1,16 @@
 const { existsSync, readFileSync, writeFileSync } = require('fs')
+const chalk = require('chalk')
 
 module.exports = (api, opts, rootOptions) => {
+  const pkg = api.generator.pkg
+  if (pkg.postcss) {
+    // eslint-disable-next-line
+    console.warn(
+      chalk.yellow('[warning] postcss config in package.json would be removed.')
+    )
+    delete api.generator.pkg.postcss
+  }
+
   api.extendPackage({
     dependencies: {
       'clair': '*'
@@ -8,6 +18,7 @@ module.exports = (api, opts, rootOptions) => {
   })
 
   api.injectImports(api.entryFile, `import './plugins/clair-design.js'`)
+  api.injectImports(api.entryFile, `import './styles/clair-design.css'`)
 
   api.render({
     './src/plugins/clair-design.js': './templates/src/plugins/clair-design.js',
